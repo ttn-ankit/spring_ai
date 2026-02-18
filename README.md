@@ -11,8 +11,24 @@
 
 ## Start Docker
  This project already have the docker-compose.yml file which will pull the ollama image and run the container for you, use below command
-- docker-compose up -d
-
+```
+ docker-compose up -d
+```
+ Verify if ollama run successfully?
+ 
+ - http://localhost:11434/
+ Below text should be appeared in browser
+```
+ollama is running
+```
+ 
   Enter into the container
-- docker exec -it /bin/sh (mac/linux)
-- docker exec -it bash
+  ```
+ docker exec -it /bin/sh (mac/linux)
+ docker exec -it bash (windows)
+```
+
+  Now run the below command, it will pull the model and execute it
+  ```
+  ollama run qwen2.5:3b
+  ```
