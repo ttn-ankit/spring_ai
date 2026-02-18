@@ -1,13 +1,12 @@
 # Setup Instructions for Spring AI
 
 ## Docker Prerequisites
-Before you start, ensure you have Docker and Docker Compose installed on your machine. You can download them from the following links:
+1. Before you start, ensure you have Docker and Docker Compose installed on your machine. You can download them from the following links:
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
-#Clone the repo:
-Clone the spring_ai project repository with below url.
+2. Clone the repo
 - https://github.com/ttn-ankit/spring_ai
 
-# This project already have the docker-compose.yml file which will pull the ollama image and run the container for you, use below command
+3. This project already have the docker-compose.yml file which will pull the ollama image and run the container for you, use below command
 - docker-compose up -d
