@@ -24,8 +24,8 @@ ollama is running
  
   Enter into the container
   ```
- docker exec -it /bin/sh (mac/linux)
- docker exec -it bash (windows)
+ docker exec -it ollama /bin/sh (mac/linux)
+ docker exec -it ollama bash (windows)
 ```
 
   Now run the below command, it will pull the model and execute it
