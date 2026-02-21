@@ -31,4 +31,5 @@ ollama is running
   Now run the below command, it will pull the model and execute it
   ```
   ollama run qwen2.5:3b
+  ollama run qwen3-embedding:4b
   ```
